@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rehan — UX Designer, Mumbai</title>
+<meta name="description" content="Rehan is a self-taught UX designer in Mumbai who designs from research and data.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FAFAFA;--ink:#1B1B1F;--muted:#6B6B76;--line:#E4E4E8;--accent:#2B4EFF}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Hanken Grotesk',system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.wrap{max-width:720px;margin:0 auto;padding:0 24px}
+header{display:flex;justify-content:space-between;align-items:center;padding:28px 0}
+header strong{font-weight:600}
+header a{color:var(--muted);text-decoration:none;font-size:15px}
+header a:hover{color:var(--ink)}
+.hero{padding:96px 0 72px}
+h1{font-size:clamp(2.4rem,7vw,4rem);line-height:1.05;font-weight:800;letter-spacing:-.03em}
+.lead{margin-top:28px;font-size:1.2rem;color:var(--muted);max-width:34em}
+.lead b{color:var(--ink);font-weight:600}
+.btn{display:inline-block;margin-top:36px;padding:14px 24px;background:var(--ink);color:#fff;border-radius:999px;text-decoration:none;font-weight:600;transition:background .2s}
+.btn:hover{background:var(--accent)}
+section{padding:56px 0;border-top:1px solid var(--line)}
+h2{font-size:1rem;font-weight:600;margin-bottom:24px}
+.grid{display:grid;gap:28px}
+.grid h3{font-size:1.1rem;font-weight:600}
+.grid p{color:var(--muted);margin-top:4px}
+.contact a{color:var(--accent);text-decoration:none;font-weight:500}
+.contact a:hover{text-decoration:underline}
+.contact p+p{margin-top:8px}
+footer{padding:40px 0 56px;color:var(--muted);font-size:14px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <strong>Rehan</strong>
+    <a href="#contact">Contact</a>
+  </header>
+
+  <main>
+    <div class="hero">
+      <h1>Hi, I'm Rehan. I design products people can actually use.</h1>
+      <p class="lead">I'm an 18-year-old, self-taught UX designer from <b>Mumbai</b>. I start with user research and data, then design what the evidence points to.</p>
+      <a class="btn" href="Rehan-Resume.pdf" download>Download my resume</a>
+    </div>
+
+    <section>
+      <h2>How I work</h2>
+      <div class="grid">
+        <div>
+          <h3>Talk to users first</h3>
+          <p>Interviews and observation before any screen gets drawn.</p>
+        </div>
+        <div>
+          <h3>Let data pick the direction</h3>
+          <p>I use research findings and usage numbers to decide what to build and what to drop.</p>
+        </div>
+        <div>
+          <h3>Test, then refine</h3>
+          <p>Every design is checked with real people and changed based on what they do.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p>Open to design internships and freelance projects.</p>
+      <p><a href="mailto:youremail@example.com">youremail@example.com</a></p>
+      <p><a href="https://www.linkedin.com/in/your-handle" target="_blank" rel="noopener">LinkedIn</a></p>
+    </section>
+  </main>
+
+  <footer>© 2026 Rehan. Mumbai, India.</footer>
+</div>
+</body>
+</html>
